@@ -3,7 +3,7 @@ def prime?(int)
   (2..Math.sqrt(int)).none?{|i| int % i==0}
 end
 
-def original_prime?(int)
+def original_code_prime?(int)
   return false if int <= 1 
   i = 2
   while i < int 
