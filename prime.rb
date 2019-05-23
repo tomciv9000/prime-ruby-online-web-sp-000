@@ -1,4 +1,4 @@
-def prime?(int)
+def dodoprime?(int)
   return false if int <= 1 
   i = 2
   while i < int 
