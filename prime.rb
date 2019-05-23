@@ -10,3 +10,5 @@ def prime?(int)
   return true
 end
 
+def prime?(int)
+  
