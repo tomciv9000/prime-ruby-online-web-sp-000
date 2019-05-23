@@ -12,4 +12,4 @@ end
 
 def prime?(int)
   return false if int <=1 
-  (2..Math.sqrt(int)).none?
+  (2..Math.sqrt(int)).none?{
