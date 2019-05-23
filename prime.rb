@@ -1,6 +1,5 @@
 def prime?(int)
-  if int <= 1 
-    return false 
+  return false if int <= 1 
   end
   i = 2
   while i < int 
